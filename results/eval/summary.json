@@ -1,0 +1,295 @@
+{
+  "methods": {
+    "bm25": {
+      "answerable_exact_match": 0.7916666666666666,
+      "context_recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 12,
+        "mean": 1.0,
+        "queries": 24
+      },
+      "electricity_cost_usd": null,
+      "exact_match": {
+        "ci95": [
+          0.56,
+          0.8846153846153846
+        ],
+        "groups": 14,
+        "mean": 0.7307692307692307,
+        "queries": 26
+      },
+      "generation_ms": {
+        "p50": 91.80615399964154,
+        "p95": 131.52411074952397
+      },
+      "input_tokens": 4687,
+      "ndcg": {
+        "ci95": [
+          0.923110365327387,
+          1.0
+        ],
+        "groups": 12,
+        "mean": 0.9692441461309548,
+        "queries": 24
+      },
+      "output_tokens": 92,
+      "paid_api_cost_usd": 0,
+      "recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 12,
+        "mean": 1.0,
+        "queries": 24
+      },
+      "retrieval_ms": {
+        "p50": 0.14568649930879474,
+        "p95": 0.180304750756477
+      },
+      "token_f1": {
+        "ci95": [
+          0.5833333333333334,
+          0.8888888888888888
+        ],
+        "groups": 14,
+        "mean": 0.7564102564102564,
+        "queries": 26
+      },
+      "total_ms": {
+        "p50": 93.74057850072859,
+        "p95": 133.40709825206432
+      },
+      "unanswerable_exact_match": 0.0
+    },
+    "dense": {
+      "answerable_exact_match": 0.8333333333333334,
+      "context_recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 12,
+        "mean": 1.0,
+        "queries": 24
+      },
+      "electricity_cost_usd": null,
+      "exact_match": {
+        "ci95": [
+          0.6,
+          0.8928571428571429
+        ],
+        "groups": 14,
+        "mean": 0.7692307692307693,
+        "queries": 26
+      },
+      "generation_ms": {
+        "p50": 93.72728249945794,
+        "p95": 125.10356174971093
+      },
+      "input_tokens": 4683,
+      "ndcg": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 12,
+        "mean": 1.0,
+        "queries": 24
+      },
+      "output_tokens": 92,
+      "paid_api_cost_usd": 0,
+      "recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 12,
+        "mean": 1.0,
+        "queries": 24
+      },
+      "retrieval_ms": {
+        "p50": 9.399712998856558,
+        "p95": 14.704895497743564
+      },
+      "token_f1": {
+        "ci95": [
+          0.626625,
+          0.9259259259259259
+        ],
+        "groups": 14,
+        "mean": 0.7948717948717948,
+        "queries": 26
+      },
+      "total_ms": {
+        "p50": 105.91935250158713,
+        "p95": 138.76304824862018
+      },
+      "unanswerable_exact_match": 0.0
+    },
+    "hybrid": {
+      "answerable_exact_match": 0.7916666666666666,
+      "context_recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 12,
+        "mean": 1.0,
+        "queries": 24
+      },
+      "electricity_cost_usd": null,
+      "exact_match": {
+        "ci95": [
+          0.56,
+          0.8846153846153846
+        ],
+        "groups": 14,
+        "mean": 0.7307692307692307,
+        "queries": 26
+      },
+      "generation_ms": {
+        "p50": 94.66100400095456,
+        "p95": 128.35885724962282
+      },
+      "input_tokens": 4720,
+      "ndcg": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 12,
+        "mean": 1.0,
+        "queries": 24
+      },
+      "output_tokens": 93,
+      "paid_api_cost_usd": 0,
+      "recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 12,
+        "mean": 1.0,
+        "queries": 24
+      },
+      "retrieval_ms": {
+        "p50": 9.022337499118294,
+        "p95": 14.582691499526845
+      },
+      "token_f1": {
+        "ci95": [
+          0.6049603174603174,
+          0.8994708994708994
+        ],
+        "groups": 14,
+        "mean": 0.7673992673992674,
+        "queries": 26
+      },
+      "total_ms": {
+        "p50": 105.85031949995027,
+        "p95": 144.370631500351
+      },
+      "unanswerable_exact_match": 0.0
+    }
+  },
+  "paired_differences": {
+    "dense-bm25": {
+      "context_recall": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 12,
+        "mean": 0.0,
+        "queries": 24
+      },
+      "exact_match": {
+        "ci95": [
+          0.0,
+          0.12
+        ],
+        "groups": 14,
+        "mean": 0.038461538461538464,
+        "queries": 26
+      },
+      "ndcg": {
+        "ci95": [
+          0.0,
+          0.07688963467261302
+        ],
+        "groups": 12,
+        "mean": 0.030755853869045207,
+        "queries": 24
+      },
+      "recall": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 12,
+        "mean": 0.0,
+        "queries": 24
+      },
+      "token_f1": {
+        "ci95": [
+          0.0,
+          0.12
+        ],
+        "groups": 14,
+        "mean": 0.038461538461538464,
+        "queries": 26
+      }
+    },
+    "hybrid-bm25": {
+      "context_recall": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 12,
+        "mean": 0.0,
+        "queries": 24
+      },
+      "exact_match": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 14,
+        "mean": 0.0,
+        "queries": 26
+      },
+      "ndcg": {
+        "ci95": [
+          0.0,
+          0.07688963467261302
+        ],
+        "groups": 12,
+        "mean": 0.030755853869045207,
+        "queries": 24
+      },
+      "recall": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 12,
+        "mean": 0.0,
+        "queries": 24
+      },
+      "token_f1": {
+        "ci95": [
+          0.0,
+          0.03428571428571428
+        ],
+        "groups": 14,
+        "mean": 0.010989010989010988,
+        "queries": 26
+      }
+    }
+  }
+}

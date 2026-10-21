@@ -1,0 +1,296 @@
+[
+  {
+    "answer": "7319",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "iris-network",
+      "iris",
+      "frost"
+    ],
+    "method": "bm25",
+    "query_id": "eval-iris-1",
+    "references": [
+      "5826"
+    ]
+  },
+  {
+    "answer": "[junction]",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "junction",
+      "beacon",
+      "export"
+    ],
+    "method": "bm25",
+    "query_id": "eval-junction-2",
+    "references": [
+      "copper dead-letter queue",
+      "the copper dead-letter queue"
+    ]
+  },
+  {
+    "answer": "observation team",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "nova",
+      "archive",
+      "beacon"
+    ],
+    "method": "bm25",
+    "query_id": "eval-nova-1",
+    "references": [
+      "on-call navigator",
+      "the on-call navigator"
+    ]
+  },
+  {
+    "answer": "expire",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "orbit",
+      "lantern-charge",
+      "iris"
+    ],
+    "method": "bm25",
+    "query_id": "eval-orbit-2",
+    "references": [
+      "every existing session is revoked",
+      "all sessions are revoked",
+      "revoked"
+    ]
+  },
+  {
+    "answer": "90 requests per minute",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "quartz",
+      "quartz-batch",
+      "mirror"
+    ],
+    "method": "bm25",
+    "query_id": "eval-quartz-1",
+    "references": [
+      "90",
+      "90 requests"
+    ]
+  },
+  {
+    "answer": "[6 \u00b0C]",
+    "category": "unanswerable_not_abstained",
+    "context_ids": [
+      "keel",
+      "nova",
+      "rivet"
+    ],
+    "method": "bm25",
+    "query_id": "eval-unknown-weather",
+    "references": [
+      "unknown"
+    ]
+  },
+  {
+    "answer": "[0]",
+    "category": "unanswerable_not_abstained",
+    "context_ids": [
+      "keel",
+      "frost",
+      "garden"
+    ],
+    "method": "bm25",
+    "query_id": "eval-unknown-captain",
+    "references": [
+      "unknown"
+    ]
+  },
+  {
+    "answer": "7319",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "iris",
+      "iris-network",
+      "lantern"
+    ],
+    "method": "dense",
+    "query_id": "eval-iris-1",
+    "references": [
+      "5826"
+    ]
+  },
+  {
+    "answer": "observation team",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "nova",
+      "beacon",
+      "junction"
+    ],
+    "method": "dense",
+    "query_id": "eval-nova-1",
+    "references": [
+      "on-call navigator",
+      "the on-call navigator"
+    ]
+  },
+  {
+    "answer": "revokes",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "orbit",
+      "harbor",
+      "engine"
+    ],
+    "method": "dense",
+    "query_id": "eval-orbit-2",
+    "references": [
+      "every existing session is revoked",
+      "all sessions are revoked",
+      "revoked"
+    ]
+  },
+  {
+    "answer": "90 requests per minute",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "quartz",
+      "quartz-batch",
+      "mirror"
+    ],
+    "method": "dense",
+    "query_id": "eval-quartz-1",
+    "references": [
+      "90",
+      "90 requests"
+    ]
+  },
+  {
+    "answer": "30 degrees Fahrenheit",
+    "category": "unanswerable_not_abstained",
+    "context_ids": [
+      "frost",
+      "garden",
+      "soil"
+    ],
+    "method": "dense",
+    "query_id": "eval-unknown-weather",
+    "references": [
+      "unknown"
+    ]
+  },
+  {
+    "answer": "5826",
+    "category": "unanswerable_not_abstained",
+    "context_ids": [
+      "iris",
+      "iris-network",
+      "beacon"
+    ],
+    "method": "dense",
+    "query_id": "eval-unknown-captain",
+    "references": [
+      "unknown"
+    ]
+  },
+  {
+    "answer": "7319",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "iris",
+      "iris-network",
+      "beacon"
+    ],
+    "method": "hybrid",
+    "query_id": "eval-iris-1",
+    "references": [
+      "5826"
+    ]
+  },
+  {
+    "answer": "[junction] Junction message queue",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "junction",
+      "beacon",
+      "engine"
+    ],
+    "method": "hybrid",
+    "query_id": "eval-junction-2",
+    "references": [
+      "copper dead-letter queue",
+      "the copper dead-letter queue"
+    ]
+  },
+  {
+    "answer": "observation team",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "nova",
+      "beacon",
+      "cargo"
+    ],
+    "method": "hybrid",
+    "query_id": "eval-nova-1",
+    "references": [
+      "on-call navigator",
+      "the on-call navigator"
+    ]
+  },
+  {
+    "answer": "expire",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "orbit",
+      "iris",
+      "harbor"
+    ],
+    "method": "hybrid",
+    "query_id": "eval-orbit-2",
+    "references": [
+      "every existing session is revoked",
+      "all sessions are revoked",
+      "revoked"
+    ]
+  },
+  {
+    "answer": "90 requests per minute",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "quartz",
+      "quartz-batch",
+      "mirror"
+    ],
+    "method": "hybrid",
+    "query_id": "eval-quartz-1",
+    "references": [
+      "90",
+      "90 requests"
+    ]
+  },
+  {
+    "answer": "7 degrees Celsius",
+    "category": "unanswerable_not_abstained",
+    "context_ids": [
+      "keel",
+      "prism",
+      "garden"
+    ],
+    "method": "hybrid",
+    "query_id": "eval-unknown-weather",
+    "references": [
+      "unknown"
+    ]
+  },
+  {
+    "answer": "7319",
+    "category": "unanswerable_not_abstained",
+    "context_ids": [
+      "keel",
+      "iris",
+      "iris-network"
+    ],
+    "method": "hybrid",
+    "query_id": "eval-unknown-captain",
+    "references": [
+      "unknown"
+    ]
+  }
+]

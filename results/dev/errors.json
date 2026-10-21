@@ -1,0 +1,180 @@
+[
+  {
+    "answer": "[archive] Archive recovery",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "archive",
+      "soil",
+      "frost"
+    ],
+    "method": "bm25",
+    "query_id": "dev-archive-2",
+    "references": [
+      "Recovery drawer"
+    ]
+  },
+  {
+    "answer": "every 45 seconds",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "beacon",
+      "archive",
+      "harbor"
+    ],
+    "method": "bm25",
+    "query_id": "dev-beacon-1",
+    "references": [
+      "45 seconds",
+      "45"
+    ]
+  },
+  {
+    "answer": "[drone]",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "cargo",
+      "frost",
+      "drone"
+    ],
+    "method": "bm25",
+    "query_id": "dev-cargo-2",
+    "references": [
+      "blue triangle",
+      "a blue triangle"
+    ]
+  },
+  {
+    "answer": "after 72 hours",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "export",
+      "archive",
+      "beacon"
+    ],
+    "method": "bm25",
+    "query_id": "dev-export-1",
+    "references": [
+      "72 hours",
+      "72"
+    ]
+  },
+  {
+    "answer": "[lantern-charge]",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "frost",
+      "lantern",
+      "lantern-charge"
+    ],
+    "method": "bm25",
+    "query_id": "dev-frost-1",
+    "references": [
+      "silver reference plate",
+      "a silver reference plate"
+    ]
+  },
+  {
+    "answer": "[archive] Archive recovery",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "archive",
+      "rivet",
+      "iris"
+    ],
+    "method": "dense",
+    "query_id": "dev-archive-2",
+    "references": [
+      "Recovery drawer"
+    ]
+  },
+  {
+    "answer": "every 45 seconds",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "beacon",
+      "quartz",
+      "mirror"
+    ],
+    "method": "dense",
+    "query_id": "dev-beacon-1",
+    "references": [
+      "45 seconds",
+      "45"
+    ]
+  },
+  {
+    "answer": "after 72 hours",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "export",
+      "engine",
+      "orbit"
+    ],
+    "method": "dense",
+    "query_id": "dev-export-1",
+    "references": [
+      "72 hours",
+      "72"
+    ]
+  },
+  {
+    "answer": "[prism]",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "frost",
+      "soil",
+      "prism"
+    ],
+    "method": "dense",
+    "query_id": "dev-frost-1",
+    "references": [
+      "silver reference plate",
+      "a silver reference plate"
+    ]
+  },
+  {
+    "answer": "every 45 seconds",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "beacon",
+      "frost",
+      "drone"
+    ],
+    "method": "hybrid",
+    "query_id": "dev-beacon-1",
+    "references": [
+      "45 seconds",
+      "45"
+    ]
+  },
+  {
+    "answer": "After 72 hours",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "export",
+      "archive",
+      "orbit"
+    ],
+    "method": "hybrid",
+    "query_id": "dev-export-1",
+    "references": [
+      "72 hours",
+      "72"
+    ]
+  },
+  {
+    "answer": "[lunch garden humidity target]",
+    "category": "answer_mismatch_with_relevant_context",
+    "context_ids": [
+      "frost",
+      "garden",
+      "lantern"
+    ],
+    "method": "hybrid",
+    "query_id": "dev-frost-1",
+    "references": [
+      "silver reference plate",
+      "a silver reference plate"
+    ]
+  }
+]

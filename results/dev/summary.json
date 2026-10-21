@@ -1,0 +1,295 @@
+{
+  "methods": {
+    "bm25": {
+      "answerable_exact_match": 0.5833333333333334,
+      "context_recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 6,
+        "mean": 1.0,
+        "queries": 12
+      },
+      "electricity_cost_usd": null,
+      "exact_match": {
+        "ci95": [
+          0.5,
+          0.75
+        ],
+        "groups": 6,
+        "mean": 0.5833333333333334,
+        "queries": 12
+      },
+      "generation_ms": {
+        "p50": 93.40163600063534,
+        "p95": 131.49611515036668
+      },
+      "input_tokens": 2051,
+      "ndcg": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 6,
+        "mean": 1.0,
+        "queries": 12
+      },
+      "output_tokens": 55,
+      "paid_api_cost_usd": 0,
+      "recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 6,
+        "mean": 1.0,
+        "queries": 12
+      },
+      "retrieval_ms": {
+        "p50": 0.1314209985139314,
+        "p95": 0.1589059987963992
+      },
+      "token_f1": {
+        "ci95": [
+          0.6,
+          0.9166666666666666
+        ],
+        "groups": 6,
+        "mean": 0.75,
+        "queries": 12
+      },
+      "total_ms": {
+        "p50": 94.9505090011371,
+        "p95": 132.9895842982296
+      },
+      "unanswerable_exact_match": null
+    },
+    "dense": {
+      "answerable_exact_match": 0.6666666666666666,
+      "context_recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 6,
+        "mean": 1.0,
+        "queries": 12
+      },
+      "electricity_cost_usd": null,
+      "exact_match": {
+        "ci95": [
+          0.5,
+          0.8333333333333334
+        ],
+        "groups": 6,
+        "mean": 0.6666666666666666,
+        "queries": 12
+      },
+      "generation_ms": {
+        "p50": 94.73331400113238,
+        "p95": 156.71168239932737
+      },
+      "input_tokens": 2124,
+      "ndcg": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 6,
+        "mean": 1.0,
+        "queries": 12
+      },
+      "output_tokens": 50,
+      "paid_api_cost_usd": 0,
+      "recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 6,
+        "mean": 1.0,
+        "queries": 12
+      },
+      "retrieval_ms": {
+        "p50": 8.133761499266257,
+        "p95": 10.465394652055693
+      },
+      "token_f1": {
+        "ci95": [
+          0.6829166666666667,
+          0.9666666666666667
+        ],
+        "groups": 6,
+        "mean": 0.8333333333333334,
+        "queries": 12
+      },
+      "total_ms": {
+        "p50": 104.20398700080113,
+        "p95": 166.88429109999558
+      },
+      "unanswerable_exact_match": null
+    },
+    "hybrid": {
+      "answerable_exact_match": 0.75,
+      "context_recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 6,
+        "mean": 1.0,
+        "queries": 12
+      },
+      "electricity_cost_usd": null,
+      "exact_match": {
+        "ci95": [
+          0.5833333333333334,
+          0.9166666666666666
+        ],
+        "groups": 6,
+        "mean": 0.75,
+        "queries": 12
+      },
+      "generation_ms": {
+        "p50": 85.85787399897526,
+        "p95": 149.33490740058912
+      },
+      "input_tokens": 2093,
+      "ndcg": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 6,
+        "mean": 1.0,
+        "queries": 12
+      },
+      "output_tokens": 49,
+      "paid_api_cost_usd": 0,
+      "recall": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "groups": 6,
+        "mean": 1.0,
+        "queries": 12
+      },
+      "retrieval_ms": {
+        "p50": 8.93257599818753,
+        "p95": 10.409327950037548
+      },
+      "token_f1": {
+        "ci95": [
+          0.7166666666666667,
+          0.9833333333333334
+        ],
+        "groups": 6,
+        "mean": 0.8833333333333333,
+        "queries": 12
+      },
+      "total_ms": {
+        "p50": 95.1086179993581,
+        "p95": 160.1478284499535
+      },
+      "unanswerable_exact_match": null
+    }
+  },
+  "paired_differences": {
+    "dense-bm25": {
+      "context_recall": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 6,
+        "mean": 0.0,
+        "queries": 12
+      },
+      "exact_match": {
+        "ci95": [
+          0.0,
+          0.25
+        ],
+        "groups": 6,
+        "mean": 0.08333333333333333,
+        "queries": 12
+      },
+      "ndcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 6,
+        "mean": 0.0,
+        "queries": 12
+      },
+      "recall": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 6,
+        "mean": 0.0,
+        "queries": 12
+      },
+      "token_f1": {
+        "ci95": [
+          0.0,
+          0.25
+        ],
+        "groups": 6,
+        "mean": 0.08333333333333333,
+        "queries": 12
+      }
+    },
+    "hybrid-bm25": {
+      "context_recall": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 6,
+        "mean": 0.0,
+        "queries": 12
+      },
+      "exact_match": {
+        "ci95": [
+          0.0,
+          0.3333333333333333
+        ],
+        "groups": 6,
+        "mean": 0.16666666666666666,
+        "queries": 12
+      },
+      "ndcg": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 6,
+        "mean": 0.0,
+        "queries": 12
+      },
+      "recall": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 6,
+        "mean": 0.0,
+        "queries": 12
+      },
+      "token_f1": {
+        "ci95": [
+          0.0,
+          0.3
+        ],
+        "groups": 6,
+        "mean": 0.13333333333333333,
+        "queries": 12
+      }
+    }
+  }
+}
