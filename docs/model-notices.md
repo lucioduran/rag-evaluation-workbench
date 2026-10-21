@@ -15,8 +15,10 @@ platform lock. Other platforms may require additional PyTorch platform packages.
 
 The core evaluator, statistical functions, and evidence replay require only the
 Python standard library. CI installs only the pinned coverage and formatting
-tools. CI uses Python 3.11.13 on Linux and macOS and Python 3.11.9 on Windows,
-where setup-python does not provide a 3.11.13 binary. Adapter contract tests use mocks; actual neural execution is exercised by
+tools. CI uses Python 3.11.13 on Linux and Python 3.11.9 on macOS and Windows,
+where setup-python does not provide a 3.11.13 binary. The measured local model
+runs use the separately installed Python 3.11.13 reference environment.
+Adapter contract tests use mocks; actual neural execution is exercised by
 the published local runs. CI does not claim to repeat neural inference.
 
 Model cards describe training, intended uses, and limitations. Model selection
