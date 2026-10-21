@@ -35,7 +35,7 @@ class BM25:
         scores = {}
         for identifier, counts in self.counts.items():
             score = 0.0
-            for term in set(tokenize(query)):
+            for term in sorted(set(tokenize(query))):
                 frequency = counts[term]
                 if not frequency:
                     continue
