@@ -1,0 +1,23 @@
+[project]
+name = "rag-evaluation-workbench"
+version = "0.1.0"
+description = "Local retrieval and generation evaluation with reproducible evidence"
+requires-python = ">=3.11"
+license = "MIT"
+readme = "README.md"
+dependencies = []
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B"]
+
+[tool.coverage.run]
+branch = true
+source = ["rag_workbench"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 90

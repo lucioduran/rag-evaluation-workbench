@@ -1,0 +1,7 @@
+# CPU reference environment on macOS x86_64 with Python 3.11.13.
+numpy==1.26.4
+torch==2.2.2
+transformers==4.46.3
+huggingface-hub==0.26.2
+safetensors==0.4.5
+sentencepiece==0.2.0
