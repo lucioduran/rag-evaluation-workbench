@@ -1,6 +1,9 @@
 import copy
 import json
 import math
+import os
+import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -77,6 +80,24 @@ class DataTests(unittest.TestCase):
 
 
 class RetrievalTests(unittest.TestCase):
+    def test_scores_are_identical_across_hash_seeds(self):
+        code = (
+            "import json; from pathlib import Path; "
+            "from rag_workbench.data import load_dataset; "
+            "from rag_workbench.retrieval import BM25; "
+            "docs,queries=load_dataset(Path('data/corpus.json'),Path('data/queries.json')); "
+            "index=BM25(docs); print(json.dumps([index.search(q.question) for q in queries]))"
+        )
+        outputs = [
+            subprocess.check_output(
+                [sys.executable, "-c", code],
+                cwd=ROOT,
+                env={**os.environ, "PYTHONHASHSEED": str(seed)},
+            )
+            for seed in (0, 17)
+        ]
+        self.assertEqual(outputs[0], outputs[1])
+
     def test_bm25_matches_hand_calculation(self):
         docs = (Document("a", "red", "red"), Document("b", "blue", "blue"))
         scores = dict(BM25(docs).search("red"))
